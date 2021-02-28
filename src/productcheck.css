@@ -1,0 +1,28 @@
+.checkoutHeader{
+width:100%;
+margin:0.5em 0 0 0.5em;
+}
+.checkoutImage img{
+height:100px;
+width:80px;
+margin-top:8px;
+}
+
+.checkoutInfo{
+font-size:12px;
+padding-left:10px;
+}
+
+.checkoutInfo h3{
+font-weight:400;
+}
+
+.checkoutInfo button{
+background: #f0c14b;
+border: 1px solid;
+margin-top: 6px;
+border-color: #a88734 #9c7e31 #846a29;
+color: #111;
+height:25px;
+border-radius:3px;
+}

@@ -1,0 +1,53 @@
+.mainHeader{
+display:flex;
+background: #232427;
+color:white;
+height:3.4rem;
+align-items:center;
+position:sticky;
+top:0;
+z-index:2;
+}
+.search input{
+width:70px;
+outline:none;
+height:1.4rem;
+}
+.search{
+display:flex;
+flex:3;
+}
+.img img{
+height:35px;
+}
+.userProfile{
+display:flex;
+font-size:11px;
+margin-left:5px;
+align-items:center;
+}
+.userProfile .home{
+padding-right:10px;
+}
+
+.userProfile .orders{
+padding-right:10px;
+}
+.userProfile .prime{
+padding-right:10px;
+}
+
+.cart{
+display:flex;
+padding:4px;
+}
+
+@media only screen and (min-width: 768px) {
+  .userProfile{
+    font-size:15px;
+  }
+  .search input{
+  width:550px;
+  margin-left:15px;
+  }
+}

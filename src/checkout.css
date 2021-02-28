@@ -1,0 +1,43 @@
+.checkoutMain{
+}
+
+.checkoutHeader{
+display:flex;
+width:100%;
+height:3rem;
+
+}
+.checkoutHeader img{
+width:70%;
+}
+
+
+.billing{
+width:30%;
+height:6rem;
+display:flex;
+background-color: #f3f3f3;
+border: 1px solid #dddddd;
+flex-direction:column;
+align-items:center;
+}
+.billing button{
+  background: #f0c14b;
+  border-radius: 2px;
+  width: 100%;
+  height: 32px;
+  border: 1px solid;
+  margin-top:10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+}
+
+.checkoutProducts{
+margin-top:10px;
+}
+
+.main{
+display:grid;
+grid-gap:7.4rem;
+width:60%;
+}
